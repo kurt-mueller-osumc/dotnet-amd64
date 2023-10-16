@@ -1,4 +1,4 @@
-# Dotnet & Emulating linux/amd64 on a Macbook Pro
+# Emulating linux/amd64 dotnet images on a Macbook Pro
 
 This repository contains a simple dotnet project and Dockerfile. It's meant to demonstrate that commands like `dotnet restore` & `dotnet build` fail (i.e. they simply hang) when attempting to emulate `linux/amd64` on a `arm64` architecture (i.e. Macs).
 
